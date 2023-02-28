@@ -1,2 +1,2 @@
 # MySQL
-Hello. This is my first ones works with MySQL.
+These are one of my very first projects/works with MySQL
