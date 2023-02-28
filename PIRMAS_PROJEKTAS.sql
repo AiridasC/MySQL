@@ -24,7 +24,6 @@ INSERT INTO clients (name, age) VALUES
 UPDATE drivers SET tripPrice = 22 WHERE name = 'Paul';
 UPDATE drivers SET carModel = 'Kia' WHERE name = 'Sam';
 
--- Ištrinkite pasirinktas eilutes
 
 DELETE FROM clients WHERE name = 'Nickie';
 
