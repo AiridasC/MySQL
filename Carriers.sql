@@ -27,8 +27,8 @@ UPDATE drivers SET carModel = 'Kia' WHERE name = 'Sam';
 
 DELETE FROM clients WHERE name = 'Nickie';
 
-ALTER TABLE clients ADD adress varchar(40);
-ALTER TABLE drivers ADD adress varchar(40);
+ALTER TABLE clients ADD address varchar(40);
+ALTER TABLE drivers ADD address varchar(40);
 
 SELECT * FROM clients c 
 
@@ -42,8 +42,8 @@ INSERT INTO drivers (name,carModel ,tripPrice,adress) VALUES
 				
 SELECT * FROM drivers d 
 
-ALTER TABLE clients DROP COLUMN adress;
-ALTER TABLE drivers DROP COLUMN adress;
+ALTER TABLE clients DROP COLUMN address;
+ALTER TABLE drivers DROP COLUMN address;
 
 
 				
